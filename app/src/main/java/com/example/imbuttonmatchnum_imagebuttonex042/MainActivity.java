@@ -34,14 +34,15 @@ public class MainActivity extends AppCompatActivity {
             iv.setImageResource(R.drawable.pasta1);
             ib.setImageResource(R.drawable.numone);
         }
-        if (hagrla == 2) {
+        else if (hagrla == 2) {
             iv.setImageResource(R.drawable.pizza);
             ib.setImageResource(R.drawable.numtwo);
         }
-        if (hagrla == 3) {
+        else  {
             iv.setImageResource(R.drawable.lasagna);
             ib.setImageResource(R.drawable.numthree);
         }
+
 
     }
 }
